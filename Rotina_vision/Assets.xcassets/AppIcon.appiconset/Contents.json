@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "DALL·E 2025-03-18 17.23.08 - A modern and minimalist logo for a daily routine tracker app. The logo features a sleek and simple design with a clock or calendar icon integrated int.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "DALL_E_2025-03-18_17.23.08_-_A_modern_and_minimalist_logo_for_a_daily_routine_tracker_app._The_logo_features_a_sleek_and_simple_design_with_a_clock_or_calendar_icon_integrated_int-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

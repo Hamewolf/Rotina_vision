@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1044B12D80F1810061E835 /* Rotina_visionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1044B02D80F1810061E835 /* Rotina_visionApp.swift */; };
+		9F1044B32D80F1810061E835 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1044B22D80F1810061E835 /* ContentView.swift */; };
+		9F1044B52D80F1810061E835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1044B42D80F1810061E835 /* Assets.xcassets */; };
+		9F1044B82D80F1810061E835 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1044B72D80F1810061E835 /* Preview Assets.xcassets */; };
+		9F1044C22D80F1820061E835 /* Rotina_visionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1044C12D80F1820061E835 /* Rotina_visionTests.swift */; };
+		9F1044CC2D80F1820061E835 /* Rotina_visionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1044CB2D80F1820061E835 /* Rotina_visionUITests.swift */; };
+		9F1044CE2D80F1820061E835 /* Rotina_visionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1044CD2D80F1820061E835 /* Rotina_visionUITestsLaunchTests.swift */; };
+		9F5BD8232DA5D74F00BF1084 /* avatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BD8222DA5D74F00BF1084 /* avatarView.swift */; };
+		9F6385182DA735030061C1AB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6385172DA735030061C1AB /* ProfileView.swift */; };
+		9F9127BC2D8A07AF000633DA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9127BB2D8A07AF000633DA /* CustomTextField.swift */; };
+		9F9127BE2D8A080E000633DA /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9127BD2D8A080E000633DA /* CustomSecureField.swift */; };
+		9F9127C32D8A0861000633DA /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9127C22D8A0861000633DA /* ForgotPasswordView.swift */; };
+		9F9127C52D8A08E8000633DA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9127C42D8A08E8000633DA /* CustomButton.swift */; };
+		9F9127C82D8A1180000633DA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9127C72D8A1180000633DA /* TabBarController.swift */; };
+		9F9127CB2D8A11FE000633DA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9127CA2D8A11FE000633DA /* HomeView.swift */; };
+		D1041C3C2DDD55E30004F6D2 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1041C3B2DDD55E30004F6D2 /* TaskDetailView.swift */; };
+		D1041C3E2DDD5AD00004F6D2 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1041C3D2DDD5AD00004F6D2 /* CustomTextEditor.swift */; };
+		D12D04BF2DDAF07A008D00B5 /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12D04BE2DDAF07A008D00B5 /* CustomPicker.swift */; };
+		D1AF73A42DDA800A00E0BBEF /* HomeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AF73A32DDA800A00E0BBEF /* HomeCellView.swift */; };
+		D1AF73A82DDA8A9800E0BBEF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AF73A72DDA8A9800E0BBEF /* Task.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F1044BE2D80F1820061E835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1044A52D80F1800061E835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1044AC2D80F1810061E835;
+			remoteInfo = Rotina_vision;
+		};
+		9F1044C82D80F1820061E835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1044A52D80F1800061E835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1044AC2D80F1810061E835;
+			remoteInfo = Rotina_vision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F1044AD2D80F1810061E835 /* Rotina_vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rotina_vision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1044B02D80F1810061E835 /* Rotina_visionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotina_visionApp.swift; sourceTree = "<group>"; };
+		9F1044B22D80F1810061E835 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F1044B42D80F1810061E835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F1044B72D80F1810061E835 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F1044BD2D80F1820061E835 /* Rotina_visionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rotina_visionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1044C12D80F1820061E835 /* Rotina_visionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotina_visionTests.swift; sourceTree = "<group>"; };
+		9F1044C72D80F1820061E835 /* Rotina_visionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rotina_visionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1044CB2D80F1820061E835 /* Rotina_visionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotina_visionUITests.swift; sourceTree = "<group>"; };
+		9F1044CD2D80F1820061E835 /* Rotina_visionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotina_visionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F5BD8222DA5D74F00BF1084 /* avatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = avatarView.swift; sourceTree = "<group>"; };
+		9F6385172DA735030061C1AB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9F9127BB2D8A07AF000633DA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		9F9127BD2D8A080E000633DA /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		9F9127C22D8A0861000633DA /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		9F9127C42D8A08E8000633DA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		9F9127C72D8A1180000633DA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9F9127CA2D8A11FE000633DA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D1041C3B2DDD55E30004F6D2 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		D1041C3D2DDD5AD00004F6D2 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
+		D12D04BE2DDAF07A008D00B5 /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		D1AF73A32DDA800A00E0BBEF /* HomeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellView.swift; sourceTree = "<group>"; };
+		D1AF73A72DDA8A9800E0BBEF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1044AA2D80F1810061E835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1044BA2D80F1820061E835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1044C42D80F1820061E835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F1044A42D80F1800061E835 = {
+			isa = PBXGroup;
+			children = (
+				9F1044AF2D80F1810061E835 /* Rotina_vision */,
+				9F1044C02D80F1820061E835 /* Rotina_visionTests */,
+				9F1044CA2D80F1820061E835 /* Rotina_visionUITests */,
+				9F1044AE2D80F1810061E835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F1044AE2D80F1810061E835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F1044AD2D80F1810061E835 /* Rotina_vision.app */,
+				9F1044BD2D80F1820061E835 /* Rotina_visionTests.xctest */,
+				9F1044C72D80F1820061E835 /* Rotina_visionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F1044AF2D80F1810061E835 /* Rotina_vision */ = {
+			isa = PBXGroup;
+			children = (
+				D1AF73A52DDA8A8600E0BBEF /* Models */,
+				9F9127BA2D8A077B000633DA /* Components */,
+				9F9127BF2D8A084C000633DA /* Section */,
+				9F1044B02D80F1810061E835 /* Rotina_visionApp.swift */,
+				9F1044B42D80F1810061E835 /* Assets.xcassets */,
+				9F1044B62D80F1810061E835 /* Preview Content */,
+			);
+			path = Rotina_vision;
+			sourceTree = "<group>";
+		};
+		9F1044B62D80F1810061E835 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F1044B72D80F1810061E835 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F1044C02D80F1820061E835 /* Rotina_visionTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1044C12D80F1820061E835 /* Rotina_visionTests.swift */,
+			);
+			path = Rotina_visionTests;
+			sourceTree = "<group>";
+		};
+		9F1044CA2D80F1820061E835 /* Rotina_visionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1044CB2D80F1820061E835 /* Rotina_visionUITests.swift */,
+				9F1044CD2D80F1820061E835 /* Rotina_visionUITestsLaunchTests.swift */,
+			);
+			path = Rotina_visionUITests;
+			sourceTree = "<group>";
+		};
+		9F6385162DA734800061C1AB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9F6385172DA735030061C1AB /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9F9127BA2D8A077B000633DA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9F9127BB2D8A07AF000633DA /* CustomTextField.swift */,
+				9F9127BD2D8A080E000633DA /* CustomSecureField.swift */,
+				9F9127C42D8A08E8000633DA /* CustomButton.swift */,
+				D12D04BE2DDAF07A008D00B5 /* CustomPicker.swift */,
+				D1041C3D2DDD5AD00004F6D2 /* CustomTextEditor.swift */,
+				9F5BD8222DA5D74F00BF1084 /* avatarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9F9127BF2D8A084C000633DA /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				9F1044B22D80F1810061E835 /* ContentView.swift */,
+				9F9127C22D8A0861000633DA /* ForgotPasswordView.swift */,
+				9F9127C62D8A1097000633DA /* Tabbar */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		9F9127C62D8A1097000633DA /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				9F9127C72D8A1180000633DA /* TabBarController.swift */,
+				9F9127C92D8A11F2000633DA /* Home */,
+				9F6385162DA734800061C1AB /* Profile */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		9F9127C92D8A11F2000633DA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9F9127CA2D8A11FE000633DA /* HomeView.swift */,
+				D1AF73A32DDA800A00E0BBEF /* HomeCellView.swift */,
+				D1041C3B2DDD55E30004F6D2 /* TaskDetailView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D1AF73A52DDA8A8600E0BBEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D1AF73A62DDA8A8A00E0BBEF /* Model */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D1AF73A62DDA8A8A00E0BBEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1AF73A72DDA8A9800E0BBEF /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F1044AC2D80F1810061E835 /* Rotina_vision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1044D12D80F1820061E835 /* Build configuration list for PBXNativeTarget "Rotina_vision" */;
+			buildPhases = (
+				9F1044A92D80F1810061E835 /* Sources */,
+				9F1044AA2D80F1810061E835 /* Frameworks */,
+				9F1044AB2D80F1810061E835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rotina_vision;
+			productName = Rotina_vision;
+			productReference = 9F1044AD2D80F1810061E835 /* Rotina_vision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F1044BC2D80F1820061E835 /* Rotina_visionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1044D42D80F1820061E835 /* Build configuration list for PBXNativeTarget "Rotina_visionTests" */;
+			buildPhases = (
+				9F1044B92D80F1820061E835 /* Sources */,
+				9F1044BA2D80F1820061E835 /* Frameworks */,
+				9F1044BB2D80F1820061E835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1044BF2D80F1820061E835 /* PBXTargetDependency */,
+			);
+			name = Rotina_visionTests;
+			productName = Rotina_visionTests;
+			productReference = 9F1044BD2D80F1820061E835 /* Rotina_visionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F1044C62D80F1820061E835 /* Rotina_visionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1044D72D80F1820061E835 /* Build configuration list for PBXNativeTarget "Rotina_visionUITests" */;
+			buildPhases = (
+				9F1044C32D80F1820061E835 /* Sources */,
+				9F1044C42D80F1820061E835 /* Frameworks */,
+				9F1044C52D80F1820061E835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1044C92D80F1820061E835 /* PBXTargetDependency */,
+			);
+			name = Rotina_visionUITests;
+			productName = Rotina_visionUITests;
+			productReference = 9F1044C72D80F1820061E835 /* Rotina_visionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1044A52D80F1800061E835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9F1044AC2D80F1810061E835 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9F1044BC2D80F1820061E835 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9F1044AC2D80F1810061E835;
+					};
+					9F1044C62D80F1820061E835 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9F1044AC2D80F1810061E835;
+					};
+				};
+			};
+			buildConfigurationList = 9F1044A82D80F1800061E835 /* Build configuration list for PBXProject "Rotina_vision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F1044A42D80F1800061E835;
+			productRefGroup = 9F1044AE2D80F1810061E835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F1044AC2D80F1810061E835 /* Rotina_vision */,
+				9F1044BC2D80F1820061E835 /* Rotina_visionTests */,
+				9F1044C62D80F1820061E835 /* Rotina_visionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F1044AB2D80F1810061E835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1044B82D80F1810061E835 /* Preview Assets.xcassets in Resources */,
+				9F1044B52D80F1810061E835 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1044BB2D80F1820061E835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1044C52D80F1820061E835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1044A92D80F1810061E835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1041C3C2DDD55E30004F6D2 /* TaskDetailView.swift in Sources */,
+				9F9127BE2D8A080E000633DA /* CustomSecureField.swift in Sources */,
+				9F1044B32D80F1810061E835 /* ContentView.swift in Sources */,
+				9F6385182DA735030061C1AB /* ProfileView.swift in Sources */,
+				D1041C3E2DDD5AD00004F6D2 /* CustomTextEditor.swift in Sources */,
+				9F5BD8232DA5D74F00BF1084 /* avatarView.swift in Sources */,
+				D1AF73A82DDA8A9800E0BBEF /* Task.swift in Sources */,
+				D1AF73A42DDA800A00E0BBEF /* HomeCellView.swift in Sources */,
+				9F9127C52D8A08E8000633DA /* CustomButton.swift in Sources */,
+				9F1044B12D80F1810061E835 /* Rotina_visionApp.swift in Sources */,
+				9F9127C82D8A1180000633DA /* TabBarController.swift in Sources */,
+				9F9127CB2D8A11FE000633DA /* HomeView.swift in Sources */,
+				9F9127C32D8A0861000633DA /* ForgotPasswordView.swift in Sources */,
+				9F9127BC2D8A07AF000633DA /* CustomTextField.swift in Sources */,
+				D12D04BF2DDAF07A008D00B5 /* CustomPicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1044B92D80F1820061E835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1044C22D80F1820061E835 /* Rotina_visionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1044C32D80F1820061E835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1044CC2D80F1820061E835 /* Rotina_visionUITests.swift in Sources */,
+				9F1044CE2D80F1820061E835 /* Rotina_visionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F1044BF2D80F1820061E835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1044AC2D80F1810061E835 /* Rotina_vision */;
+			targetProxy = 9F1044BE2D80F1820061E835 /* PBXContainerItemProxy */;
+		};
+		9F1044C92D80F1820061E835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1044AC2D80F1810061E835 /* Rotina_vision */;
+			targetProxy = 9F1044C82D80F1820061E835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F1044CF2D80F1820061E835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F1044D02D80F1820061E835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F1044D22D80F1820061E835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rotina_vision/Preview Content\"";
+				DEVELOPMENT_TEAM = CC942G6XN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rotina-vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F1044D32D80F1820061E835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rotina_vision/Preview Content\"";
+				DEVELOPMENT_TEAM = CC942G6XN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rotina-vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F1044D52D80F1820061E835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC942G6XN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rotina-visionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotina_vision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rotina_vision";
+			};
+			name = Debug;
+		};
+		9F1044D62D80F1820061E835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC942G6XN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rotina-visionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotina_vision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rotina_vision";
+			};
+			name = Release;
+		};
+		9F1044D82D80F1820061E835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC942G6XN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rotina-visionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rotina_vision;
+			};
+			name = Debug;
+		};
+		9F1044D92D80F1820061E835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CC942G6XN2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rotina-visionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rotina_vision;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1044A82D80F1800061E835 /* Build configuration list for PBXProject "Rotina_vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1044CF2D80F1820061E835 /* Debug */,
+				9F1044D02D80F1820061E835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1044D12D80F1820061E835 /* Build configuration list for PBXNativeTarget "Rotina_vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1044D22D80F1820061E835 /* Debug */,
+				9F1044D32D80F1820061E835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1044D42D80F1820061E835 /* Build configuration list for PBXNativeTarget "Rotina_visionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1044D52D80F1820061E835 /* Debug */,
+				9F1044D62D80F1820061E835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1044D72D80F1820061E835 /* Build configuration list for PBXNativeTarget "Rotina_visionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1044D82D80F1820061E835 /* Debug */,
+				9F1044D92D80F1820061E835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F1044A52D80F1800061E835 /* Project object */;
+}
